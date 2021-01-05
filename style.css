@@ -1,0 +1,100 @@
+/* first-section of the website */
+
+body{
+    font-family: 'Xanh Mono', monospace; 
+    /* box-sizing: border-box; */
+    margin: 0px;
+
+    
+}
+p
+{
+    font-family: 'Lato', sans-serif;
+}
+.highlight
+{
+    color: gray;
+}
+.half
+{
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding: 2%;
+}
+div img
+{
+    width: 100%;
+}
+section
+{
+    height: 600px;
+}
+.top-section
+{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.hire
+{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    background-color: rosybrown;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(rgba(255, 122, 122, 0.644),tomato);
+}
+/* Second section of the website */
+.fb
+{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    background-color: rosybrown;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(rgba(255, 122, 122, 0.644),tomato);
+
+}
+.second-section
+{
+    background-image:url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience
+{
+box-shadow: 10px 10px 40px #808080;
+border-radius: 5px;
+height: 80%;
+background-color: white;
+}
+.last-section
+{
+background-image: url("images/exp-bg.png");
+background-repeat: no-repeat;
+background-position: left;
+}
+#full-stack
+{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, rgba(255, 99, 71, 0.055));
+    border-image-slice: 1 ;
+
+}
+#baby-dev
+{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, rgb(0, 255, 0));
+  border-image-slice: 1;  
+}
+footer p
+{
+    text-align: center;
+}
+h4{
+    color: yellowgreen;
+}
